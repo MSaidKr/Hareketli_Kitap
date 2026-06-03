@@ -14,6 +14,5 @@ Bu proje, bilgisayarlı görü ve yapay zeka teknikleri kullanılarak geliştiri
 
 Projenin yerel makinenizde çalışabilmesi için aşağıdaki adımları izleyin:
 
-1. **Depoyu Klonlayın:**
-   ```bash
+1. **Anaconda Prompt Terminali üzerinden gerekli kütüphanelerin yüklenmesi:**
 
