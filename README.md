@@ -18,9 +18,9 @@ Projenin yerel makinenizde çalışabilmesi için aşağıdaki adımları izleyi
 ```bash 
 uv pip install opencv-python mediapipe numpy
 ```
-3. Hazır "Proje" dosyasını indirin.
-4. Eğer Camo Studio harici bir uygulama kullanacaksanız, cv2.VideoCapture() parametresini güncelleyin.
-5. Kullanım için terminale yazın.:
+2. Hazır "Proje" dosyasını indirin.
+3. Eğer Camo Studio harici bir uygulama kullanacaksanız, cv2.VideoCapture() parametresini güncelleyin.
+4. Kullanım için terminale yazın.:
 ```bash
 python kukla_projesi.py 
 ```
