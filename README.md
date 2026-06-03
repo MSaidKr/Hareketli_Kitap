@@ -15,8 +15,9 @@ Bu proje, bilgisayarlı görü ve yapay zeka teknikleri kullanılarak geliştiri
 Projenin yerel makinenizde çalışabilmesi için aşağıdaki adımları izleyin:
 
 1. Anaconda Prompt Terminali üzerinden gerekli kütüphanelerin yüklenmesi: cv2, mediapipe, numpy, math, time, os.
-'''bash
+```bash 
 uv pip install opencv-python mediapipe numpy
+```
 3. Hazır "Proje" dosyasını indirin.
 4. Eğer Camo Studio harici bir uygulama kullanacaksanız, cv2.VideoCapture() parametresini güncelleyin.
 5. Kullanım için terminale: python kukla_projesi.py yazın.
