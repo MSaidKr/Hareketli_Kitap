@@ -20,7 +20,9 @@ uv pip install opencv-python mediapipe numpy
 ```
 3. Hazır "Proje" dosyasını indirin.
 4. Eğer Camo Studio harici bir uygulama kullanacaksanız, cv2.VideoCapture() parametresini güncelleyin.
-5. Kullanım için terminale: python kukla_projesi.py yazın.
-
+5. Kullanım için terminale yazın.:
+```bash
+python kukla_projesi.py 
+```
 ## MSaidKr
 
