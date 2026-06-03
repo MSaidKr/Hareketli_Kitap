@@ -1,2 +1,1 @@
-# Hareketli_Kitap
-Bir kamera üzerinden bilgisayara görüntü aktarıyor. OpenCv kütüphanesi bu görüntüleri yakalıyor, RGB formata çevriliyor ve Hand Landmarker modeline iletiliyor. Model parmaklar üzerindeki noktaları tespit ediyor ve bu noktalar arası uzaklığa bağlı olarak; parlaklık değişikliği, nesne hareketi, ses efektleri gibi eylemler gerçekleşiyor. 
+# Proje; günümüzde çocukların azalan odak süresi problemi, kitaplara ilgisizleşmesi ve yavan görmesi sebebiyle geliştirildi. Ekran üzerinde hareket ettirebildikleri ilgi çekici objelerle birlikte yönetebildikleri ufak bir dünya sunuyor bu proje. Dijital kitaplara uyarlanmasıyla birlikte çocuklar için ilgi çekici eğitimin arttırılması hedefleniyor.
