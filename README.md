@@ -1,1 +1,19 @@
-# Proje; günümüzde çocukların azalan odak süresi problemi, kitaplara ilgisizleşmesi ve yavan görmesi sebebiyle geliştirildi. Ekran üzerinde hareket ettirebildikleri ilgi çekici objelerle birlikte yönetebildikleri ufak bir dünya sunuyor bu proje. Dijital kitaplara uyarlanmasıyla birlikte çocuklar için ilgi çekici eğitimin arttırılması hedefleniyor.
+# 🎭 Hareketli Kitap!
+
+Bu proje, bilgisayarlı görü ve yapay zeka teknikleri kullanılarak geliştirilmiş interaktif bir sanal kontrol sistemidir. Akıllı telefon kamerası üzerinden alınan gerçek zamanlı el hareketleri (gestures) ile ekrandaki dijital nesnelerin konumları değiştirilmekte, arayüzdeki ışık seviyesi kontrol edilmekte ve spesifik el hareketleriyle arka plan ses efektleri tetiklenmektedir.
+
+## 🚀 Özellikler
+
+* **Gerçek Zamanlı El Takibi:** MediaPipe Hand Landmark modeli ile 21 farklı eklem noktasının gecikmesiz tespiti.
+* **Akıllı Kamera Entegrasyonu:** Camo Studio aracılığıyla telefon kamerasının yüksek çözünürlüklü IP/Sanal kamera olarak kullanılması.
+* **Dinamik Görüntü Etkileşimi:** El hareketlerinin x ve y koordinatlarına göre ekrandaki nesnelerin sürüklenmesi.
+* **Işık/Parlaklık Kontrolü:** Parmaklar arasındaki mesafeye duyarlı, anlık değişen ışık seviyesi yönetimi.
+* **İşitsel Geri Bildirim:** Belirli el hareketlerinin birer tetikleyici (trigger) olarak kullanılıp arka plan ses dosyalarını oynatması.
+
+## ⚙️ Kurulum ve Gereksinimler
+
+Projenin yerel makinenizde çalışabilmesi için aşağıdaki adımları izleyin:
+
+1. **Depoyu Klonlayın:**
+   ```bash
+
