@@ -14,7 +14,7 @@ Bu proje, bilgisayarlı görü ve yapay zeka teknikleri kullanılarak geliştiri
 
 Projenin yerel makinenizde çalışabilmesi için aşağıdaki adımları izleyin:
 
-1. Anaconda Prompt Terminali üzerinden gerekli kütüphanelerin yüklenmesi: cv2, mediapipe, numpy, math, time, os.
+1. Anaconda Prompt Terminali üzerinden gerekli kütüphanelerin yüklenmesi: cv2, mediapipe, numpy.
 ```bash 
 uv pip install opencv-python mediapipe numpy
 ```
