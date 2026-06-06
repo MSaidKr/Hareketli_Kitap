@@ -24,5 +24,13 @@ uv pip install opencv-python mediapipe numpy
 ```bash
 python kukla_projesi.py 
 ```
+
+## Proje Resimleri
+
+<img width="1536" height="1024" alt="model" src="https://github.com/user-attachments/assets/54c7a56e-1d47-4477-a7d2-b9958ed54e36" />
+<img width="1536" height="1024" alt="gemi" src="https://github.com/user-attachments/assets/d26bbaa8-7334-4080-ade9-0a3e7574bf02" />
+<img width="1536" height="1024" alt="gun_batimi" src="https://github.com/user-attachments/assets/0f37fe4b-e232-4524-ba6a-ae6f7bb7bc9b" />
+
+
 ## MSaidKr
 
