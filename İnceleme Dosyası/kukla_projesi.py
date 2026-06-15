@@ -98,13 +98,13 @@ while True:
         y17 = landmarks[17].y * h # Serçe parmak kökü
 
         # -----------------------------------------------------------------
-        # GÜNCELLEME 1: İŞARET PARMAĞI -> Gemi (Hızlandırıldı & Sınırları Genişletildi)
+        # GÜNCELLEME 1: İŞARET PARMAĞI = Gemi (Hızlandırıldı & Sınırları Genişletildi)
         # -----------------------------------------------------------------
         # Kameranın orta kısmındaki ufak hareketler gemiyi uçtan uca götürecek
         gemi_x = int(np.interp(x8, [w * 0.15, w * 0.85], [-50, SAHNE_W - 100]))
 
         # -----------------------------------------------------------------
-        # GÜNCELLEME 2: YÜZÜK PARMAĞI -> Arka Plan (Tema Değişimi)
+        # GÜNCELLEME 2: YÜZÜK PARMAĞI = Arka Plan (Tema Değişimi)
         # -----------------------------------------------------------------
         if y16 < y13: # Yüzük parmağı havadaysa
             if (suan - son_bg_degisme_zamani) > 1.5:
@@ -112,13 +112,13 @@ while True:
                 son_bg_degisme_zamani = suan
 
         # -----------------------------------------------------------------
-        # GÜNCELLEME 3: ORTA PARMAK -> Parlaklık (Başparmak ile Mesafe)
+        # GÜNCELLEME 3: ORTA PARMAK = Parlaklık (Başparmak ile Mesafe)
         # -----------------------------------------------------------------
         orta_mesafe = math.hypot(x12 - x4, y12 - y4)
         parlaklik_carpani = np.interp(orta_mesafe, [20, 150], [0.2, 1.0])
 
         # -----------------------------------------------------------------
-        # GÜNCELLEME 4: SERÇE PARMAĞI -> Ses Kapat/Aç Modu
+        # GÜNCELLEME 4: SERÇE PARMAĞI = Ses Kapat/Aç Modu
         # -----------------------------------------------------------------
         if y20 < y17: # Serçe parmağı havadaysa
             if not pygame.mixer.music.get_busy(): # Müzik çalmıyorsa başlat (Döngüye al)
